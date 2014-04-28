@@ -4,12 +4,12 @@
 
 # This function creates a special matrix that:
 # 1) Sets the value of the matrix
-# 2) gets the value of the vector
+# 2) gets the value of the matrix
 # 3) sets the value of the iverse of the matrix
 # 4) Gets the value of the inverse of the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
-inverse <- NULL
+  inverse <- NULL
   set <- function (y){
     x <<- y
     inverse <<- NULL
